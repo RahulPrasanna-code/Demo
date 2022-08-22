@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr th{
+    background-color: black;
+    color: white;
+}
+
+table tr td{
+    padding: 20px;
+}
+
+table tr td:nth-child(odd){
+    background-color: aliceblue;
+}
+
+table tr td:nth-child(even){
+    background-color: antiquewhite;
+}
